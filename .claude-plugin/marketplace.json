@@ -1,0 +1,50 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-plugins",
+  "version": "1.0.0",
+  "description": "Thomas Tiotto's Claude Code plugins, bundled into a single marketplace. One `/plugin marketplace add` command gives you access to all of them.",
+  "owner": {
+    "name": "Thomas Tiotto"
+  },
+  "plugins": [
+    {
+      "name": "worktree-toolkit",
+      "description": "Create git worktrees from PR numbers / branch names / a live picker (your open PRs and PRs needing your review), and reclaim worktree branches back into main. Graphite-aware. Bundles WorktreeCreate/WorktreeRemove hooks so the session's project directory follows the worktree.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "thomast8/claude-worktree-toolkit",
+        "path": "plugins/worktree-toolkit"
+      }
+    },
+    {
+      "name": "find-reviewer",
+      "description": "`/find-reviewer` ranks contributors by load, breadth across the repo, and familiarity with the changed files. Auto-detects the current branch's PR. Cached.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "thomast8/claude-find-reviewer",
+        "path": "plugins/find-reviewer"
+      }
+    },
+    {
+      "name": "claude-code-caffeinate",
+      "description": "Keep your Mac awake only while Claude Code is actively processing, with a SwiftBar menu bar dashboard showing per-session activity and token usage.",
+      "category": "productivity",
+      "source": {
+        "source": "github",
+        "repo": "thomast8/claude-code-caffeinate"
+      }
+    },
+    {
+      "name": "session-title",
+      "description": "UserPromptSubmit hook that renames each Claude Code session on its first prompt by asking Haiku for a kebab-case summary. One-shot per session, recursion-safe, slugified-prompt fallback.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "thomast8/claude-session-title",
+        "path": "plugins/session-title"
+      }
+    }
+  ]
+}
