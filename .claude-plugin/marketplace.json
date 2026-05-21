@@ -13,7 +13,7 @@
       "category": "productivity",
       "source": {
         "source": "git-subdir",
-        "url": "thomast8/claude-worktree-toolkit",
+        "url": "https://github.com/thomast8/claude-worktree-toolkit.git",
         "path": "plugins/worktree-toolkit"
       }
     },
@@ -23,7 +23,7 @@
       "category": "productivity",
       "source": {
         "source": "git-subdir",
-        "url": "thomast8/claude-find-reviewer",
+        "url": "https://github.com/thomast8/claude-find-reviewer.git",
         "path": "plugins/find-reviewer"
       }
     },
@@ -42,7 +42,7 @@
       "category": "productivity",
       "source": {
         "source": "git-subdir",
-        "url": "thomast8/claude-session-title",
+        "url": "https://github.com/thomast8/claude-session-title.git",
         "path": "plugins/session-title"
       }
     }
