@@ -1,6 +1,6 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "claude-plugins",
+  "name": "thomast8-claude-plugins",
   "version": "1.0.0",
   "description": "Thomas Tiotto's Claude Code plugins, bundled into a single marketplace. One `/plugin marketplace add` command gives you access to all of them.",
   "owner": {

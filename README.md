@@ -11,10 +11,10 @@ An aggregate [Claude Code](https://code.claude.com/docs) marketplace bundling ev
 Then install whichever plugins you want:
 
 ```text
-/plugin install worktree-toolkit@claude-plugins
-/plugin install find-reviewer@claude-plugins
-/plugin install claude-code-caffeinate@claude-plugins
-/plugin install session-title@claude-plugins
+/plugin install worktree-toolkit@thomast8-claude-plugins
+/plugin install find-reviewer@thomast8-claude-plugins
+/plugin install claude-code-caffeinate@thomast8-claude-plugins
+/plugin install session-title@thomast8-claude-plugins
 ```
 
 ## What's in the catalog
@@ -33,7 +33,7 @@ Each plugin lives in its own repo and has its own standalone marketplace, so you
 ## Updating
 
 ```text
-/plugin marketplace update claude-plugins
+/plugin marketplace update thomast8-claude-plugins
 ```
 
 Pulls the latest `marketplace.json` and re-resolves each plugin's `source` against the current HEAD of its source repo.
