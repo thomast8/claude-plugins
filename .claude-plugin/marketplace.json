@@ -32,8 +32,8 @@
       "description": "Keep your Mac awake only while Claude Code is actively processing, with a SwiftBar menu bar dashboard showing per-session activity and token usage.",
       "category": "productivity",
       "source": {
-        "source": "github",
-        "repo": "thomast8/claude-code-caffeinate"
+        "source": "url",
+        "url": "https://github.com/thomast8/claude-code-caffeinate.git"
       }
     },
     {
