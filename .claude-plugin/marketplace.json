@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "thomast8-claude-plugins",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Thomas Tiotto's Claude Code plugins, bundled into a single marketplace. One `/plugin marketplace add` command gives you access to all of them.",
   "owner": {
     "name": "Thomas Tiotto"
@@ -19,7 +19,7 @@
     },
     {
       "name": "find-reviewer",
-      "description": "`/find-reviewer` ranks contributors by load, breadth across the repo, and familiarity with the changed files. Auto-detects the current branch's PR. Cached.",
+      "description": "`/find-reviewer` ranks contributors by load, breadth across the repo, and familiarity with the changed files, surfacing the most PR-active candidates first in a multi-select picker. Auto-detects the current branch's PR. Cached.",
       "category": "productivity",
       "source": {
         "source": "git-subdir",
