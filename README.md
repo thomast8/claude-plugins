@@ -13,7 +13,6 @@ Then install whichever plugins you want:
 ```text
 /plugin install worktree-toolkit@thomast8-claude-plugins
 /plugin install find-reviewer@thomast8-claude-plugins
-/plugin install session-title@thomast8-claude-plugins
 ```
 
 ## What's in the catalog
@@ -22,7 +21,6 @@ Then install whichever plugins you want:
 |---|---|---|
 | **worktree-toolkit** | `/worktree` and `/unworktree` — create git worktrees from PR numbers, branch names, or an interactively-picked PR. Graphite-aware. Bundles `WorktreeCreate`/`WorktreeRemove` hooks. | [claude-worktree-toolkit](https://github.com/thomast8/claude-worktree-toolkit) |
 | **find-reviewer** | `/find-reviewer` ranks contributors by load, breadth, and familiarity with the changed files, with a multi-select picker that surfaces the most PR-active candidates first. Auto-detects the current branch's PR. | [claude-find-reviewer](https://github.com/thomast8/claude-find-reviewer) |
-| **session-title** | Auto-renames each session after the first assistant turn: a Stop hook spawns a detached background worker that asks Haiku for a kebab-case summary (zero prompt latency, titles off both prompt and reply). One-shot, recursion-safe, fallback to a slugified prompt. | [claude-session-title](https://github.com/thomast8/claude-session-title) |
 
 ## Why an aggregate marketplace?
 
