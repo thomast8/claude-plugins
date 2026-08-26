@@ -13,6 +13,7 @@ Then install whichever plugins you want:
 ```text
 /plugin install worktree-toolkit@thomast8-claude-plugins
 /plugin install find-reviewer@thomast8-claude-plugins
+/plugin install codex-pilot@thomast8-claude-plugins
 ```
 
 ## What's in the catalog
@@ -21,6 +22,7 @@ Then install whichever plugins you want:
 |---|---|---|
 | **worktree-toolkit** | `/worktree` and `/unworktree` — create git worktrees from PR numbers, branch names, or an interactively-picked PR. Graphite-aware. Bundles `WorktreeCreate`/`WorktreeRemove` hooks. | [claude-worktree-toolkit](https://github.com/thomast8/claude-worktree-toolkit) |
 | **find-reviewer** | `/find-reviewer` ranks contributors by load, breadth, and familiarity with the changed files, with a multi-select picker that surfaces the most PR-active candidates first. Auto-detects the current branch's PR. | [claude-find-reviewer](https://github.com/thomast8/claude-find-reviewer) |
+| **codex-pilot** | Supervise Codex agents from Claude Code: send work to a thread, steer a turn that is already running, stop one, answer its approvals, change model/reasoning/plan mode, and learn when a thread goes idle without polling. macOS. | [codex-pilot](https://github.com/thomast8/codex-pilot) |
 
 ## Why an aggregate marketplace?
 

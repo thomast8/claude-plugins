@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "thomast8-claude-plugins",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Thomas Tiotto's Claude Code plugins, bundled into a single marketplace. One `/plugin marketplace add` command gives you access to all of them.",
   "owner": {
     "name": "Thomas Tiotto"
@@ -25,6 +25,16 @@
         "source": "git-subdir",
         "url": "https://github.com/thomast8/claude-find-reviewer.git",
         "path": "plugins/find-reviewer"
+      }
+    },
+    {
+      "name": "codex-pilot",
+      "description": "Supervise Codex agents from Claude Code. Send work to a thread, steer a turn already running, stop one, answer its approval and permission requests, and change model, reasoning effort, plan mode or sandbox. Follow threads to learn when a turn finished without polling. Handles several Codex Desktop installs, and resumes a thread detached when the app does not have it open.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thomast8/codex-pilot.git",
+        "path": "plugins/codex-pilot"
       }
     }
   ]
